@@ -160,5 +160,22 @@ To initialise an animation when scrolled to, add the class "wow" and any of the 
 ```
 <header class="wow fadeInUpBig">
 
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
 </header>
 ```
